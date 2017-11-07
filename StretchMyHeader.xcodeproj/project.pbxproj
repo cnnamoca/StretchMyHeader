@@ -13,6 +13,8 @@
 		E6DB75401FB23C1500A56E33 /* StretchMyHeader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6DB753E1FB23C1500A56E33 /* StretchMyHeader.xcdatamodeld */; };
 		E6DB75421FB23C1500A56E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6DB75411FB23C1500A56E33 /* Assets.xcassets */; };
 		E6DB75451FB23C1500A56E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DB75431FB23C1500A56E33 /* LaunchScreen.storyboard */; };
+		E6DB754D1FB2434300A56E33 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DB754C1FB2434300A56E33 /* NewsItem.swift */; };
+		E6DB754F1FB248F300A56E33 /* NewsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DB754E1FB248F300A56E33 /* NewsItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E6DB75411FB23C1500A56E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6DB75441FB23C1500A56E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6DB75461FB23C1500A56E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6DB754C1FB2434300A56E33 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		E6DB754E1FB248F300A56E33 /* NewsItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E6DB75371FB23C1500A56E33 /* AppDelegate.swift */,
 				E6DB75391FB23C1500A56E33 /* ViewController.swift */,
 				E6DB753B1FB23C1500A56E33 /* Main.storyboard */,
+				E6DB754C1FB2434300A56E33 /* NewsItem.swift */,
+				E6DB754E1FB248F300A56E33 /* NewsItemCell.swift */,
 				E6DB75411FB23C1500A56E33 /* Assets.xcassets */,
 				E6DB75431FB23C1500A56E33 /* LaunchScreen.storyboard */,
 				E6DB75461FB23C1500A56E33 /* Info.plist */,
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6DB753A1FB23C1500A56E33 /* ViewController.swift in Sources */,
+				E6DB754D1FB2434300A56E33 /* NewsItem.swift in Sources */,
 				E6DB75381FB23C1500A56E33 /* AppDelegate.swift in Sources */,
 				E6DB75401FB23C1500A56E33 /* StretchMyHeader.xcdatamodeld in Sources */,
+				E6DB754F1FB248F300A56E33 /* NewsItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
